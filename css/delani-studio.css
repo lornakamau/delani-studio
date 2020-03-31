@@ -25,7 +25,7 @@ p{ /*makes all paragraphs the same font size */
     font-size: 14px;
 }
 #services{
-    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as header background */
+    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as background */
     background-size: cover; /* preserves image's aspect ratio */
     text-align: center;
     color: white;
@@ -43,12 +43,18 @@ p{ /*makes all paragraphs the same font size */
     text-align: center;
 }
 .row{
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 #portfolio img{
     object-fit:contain;
-    width: 220px;
-    height:220px;
-    border: 3px solid white;
-  }
+    width: 200px;
+    height:200px;
+    border: 2px solid white;
+}
+#contactUs{
+    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as background */
+    background-size: cover; /* preserves image's aspect ratio */
+    text-align: center;
+    color: white;
+}
