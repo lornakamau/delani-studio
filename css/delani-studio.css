@@ -39,3 +39,9 @@ p{ /*makes all paragraphs the same font size */
     padding-top: 3%;
     padding-bottom: 3%;
 }
+#portfolio img{
+    object-fit:contain;
+    width: 280px;
+    height:280px;
+    border: 2px solid white;
+  }
