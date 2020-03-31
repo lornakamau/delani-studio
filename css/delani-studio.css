@@ -54,10 +54,22 @@ p{ /*makes all paragraphs the same font size */
     border: 2px solid white;
 }
 #contactUs{
-    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as background */
+    background-image: url("../images/backgrounds/c_image.jpg"); /* sets image as background */
     background-size: cover; /* preserves image's aspect ratio */
     text-align: center;
     color: white;
+}
+#contactUs h4{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.textarea{ /* position text box*/
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+}
+.form-control{ /* makes background of input boxes transparent */
+    background-color: transparent;
 }
 #socials{
     padding-top: 3%;
