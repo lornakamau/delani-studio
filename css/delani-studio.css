@@ -1,0 +1,36 @@
+#header{
+    background-image: url("../images/backgrounds/h_img.jpg"); /* sets image as header background */
+    background-size: cover; /* preserves image's aspect ratio */
+    text-align: center; /* align's text in the header*/
+    color: white;
+}
+#header .logo{
+    padding-top: 17%;
+}
+#header h1{
+    font-size: 38px;
+}
+#header h6{
+    font-size: 12px; 
+}
+#header .mouse-click{
+    padding-bottom: 3%;
+}
+#aboutUs{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+p{ /*makes all paragraphs the same font size */
+    font-size: 14px;
+}
+#services{
+    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as header background */
+    background-size: cover; /* preserves image's aspect ratio */
+    text-align: center;
+    color: white;
+}
+#services .content{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
