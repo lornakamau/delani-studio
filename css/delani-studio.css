@@ -41,6 +41,7 @@ p{ /*makes all paragraphs the same font size */
 }
 #portfolio{
     text-align: center;
+    padding-bottom: 3%;
 }
 .row{
     padding-left: 12%;
@@ -59,6 +60,15 @@ p{ /*makes all paragraphs the same font size */
     color: white;
 }
 #socials{
-    padding-top: 2%;
+    padding-top: 3%;
     text-align: center;
+    padding-bottom: 3%;
+}
+#footer{
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#footer p{
+    margin:0;
 }
