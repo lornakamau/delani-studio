@@ -34,3 +34,8 @@ p{ /*makes all paragraphs the same font size */
     padding-top: 8%;
     padding-bottom: 8%;
 }
+#whatWeDo{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
