@@ -58,3 +58,7 @@ p{ /*makes all paragraphs the same font size */
     text-align: center;
     color: white;
 }
+#socials{
+    padding-top: 2%;
+    text-align: center;
+}
