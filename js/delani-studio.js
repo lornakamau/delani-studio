@@ -13,13 +13,18 @@ $(document).ready(function() {
     });
 });
 $(document).ready(function() {
-    $(".work1").hover(function() {
-        $("#name1").addClass("mask flex-center rgba-black-light");
+    $(".section2").hover(function() {
+      $(".carousel-caption").show();
+    }, function(){
+    $(".carousel-caption").hide();
+      });
+  });
+$(document).ready(function() {
+    $(".section2").hover(function() {
+        $(".carousel-caption").addClass("mask flex-center rgba-black-light");
     });
-    $("div.image-frame").hover(function() {
-        $(".classAdd2").addClass("mask flex-center rgba-blue-light");
-    });
-    $("div.image-frame").hover(function() {
-        $(".classAdd2").addClass("mask flex-center rgba-blue-light");
-    });
-});
+});/* resets form 
+$("button").on('click', function(){
+    $('form').each(function(){
+      this.reset();
+    }); */
