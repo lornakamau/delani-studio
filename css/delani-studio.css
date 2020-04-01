@@ -31,13 +31,26 @@ p{ /*makes all paragraphs the same font size */
     color: white;
 }
 #services .content{
-    padding-top: 8%;
+    padding-top: 7%;
     padding-bottom: 8%;
 }
 #whatWeDo{
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+#whatWeDo .row{
+    padding: 0;
+}
+#whatWeDo p{
+    display: none;
+}
+#whatWeDo img{
+    width: 79px;
+    height: 79px;
+}
+#whatWeDo h6{
+    font-size: 16px;
 }
 #portfolio{
     text-align: center;
@@ -47,11 +60,28 @@ p{ /*makes all paragraphs the same font size */
     padding-left: 12%;
     padding-right: 12%;
 }
+.col-md-3{ /* defines spacing between portfolio images */
+    padding: 1%;
+}
 #portfolio img{
     object-fit:contain;
-    width: 200px;
-    height:200px;
+    width: 100%;
+    height:auto;
+}
+#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
+    position: relative;
+}
+#portfolio .carousel-caption{
+    height: 80%;
+    width: 80%;
+    font-size: 19px;
+    text-transform: uppercase;
     border: 2px solid white;
+    padding: 1%;
+    text-align: left;
+    left: 10%;
+    bottom: 0;
+    top: 10%;
 }
 #contactUs{
     background-image: url("../images/backgrounds/c_image.jpg"); /* sets image as background */
@@ -71,6 +101,19 @@ p{ /*makes all paragraphs the same font size */
 .form-control{ /* makes background of input boxes transparent */
     background-color: transparent;
 }
+#name{
+    color: white;
+    background: transparent;
+}
+#email{
+    color: white;
+    background: transparent;
+}
+#message{
+    color: white;
+    background: transparent;
+}
+  
 #socials{
     padding-top: 3%;
     text-align: center;
