@@ -42,7 +42,15 @@ p{ /*makes all paragraphs the same font size */
 #whatWeDo .row{
     padding: 0;
 }
-.description{
+.design-description{
+    display: none;
+    text-align: center;
+}
+.development-description{
+    display: none;
+    text-align: center;
+}
+.product-description{
     display: none;
     text-align: center;
 }
