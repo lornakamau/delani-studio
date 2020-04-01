@@ -12,3 +12,14 @@ $(document).ready(function() {
         $(".product-description").toggle();
     });
 });
+$(document).ready(function() {
+    $(".work1").hover(function() {
+        $("#name1").addClass("mask flex-center rgba-black-light");
+    });
+    $("div.image-frame").hover(function() {
+        $(".classAdd2").addClass("mask flex-center rgba-blue-light");
+    });
+    $("div.image-frame").hover(function() {
+        $(".classAdd2").addClass("mask flex-center rgba-blue-light");
+    });
+});
