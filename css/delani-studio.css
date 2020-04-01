@@ -42,8 +42,9 @@ p{ /*makes all paragraphs the same font size */
 #whatWeDo .row{
     padding: 0;
 }
-#whatWeDo p{
+.description{
     display: none;
+    text-align: center;
 }
 #whatWeDo img{
     width: 79px;
@@ -70,14 +71,16 @@ p{ /*makes all paragraphs the same font size */
 }
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
     position: relative;
+    
 }
-#portfolio .carousel-caption{
+.carousel-caption{
+    display: none;
     height: 80%;
     width: 80%;
     font-size: 19px;
     text-transform: uppercase;
     border: 2px solid white;
-    padding: 1%;
+    padding: 2%;
     text-align: left;
     left: 10%;
     bottom: 0;
