@@ -89,8 +89,7 @@ p{ /*makes all paragraphs the same font size */
 #work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
     position: relative; 
 }
-.carousel-caption{
-    
+.nam{
     height:74%;
     width: 74%;
     font-size: 24px;

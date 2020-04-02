@@ -12,18 +12,20 @@ $(document).ready(function() {
         $(".product-description").toggle();
     });
 });
+/*
 $(document).ready(function() {
     $(".section2").hover(function() {
       $(".carousel-caption").show();
     }, function(){
     $(".carousel-caption").hide();
       });
-  });
-$(document).ready(function() {
-    $(".section2").hover(function() {
-        $(".carousel-caption").addClass("mask flex-center rgba-black-light");
+  });*/
+  $(document).ready(function() {
+    $("div.image-frame").hover(function() {
+        $("#name").addClass("mask flex-center rgba-red-strong");
     });
-});/* resets form 
+});
+/* resets form 
 $("button").on('click', function(){
     $('form').each(function(){
       this.reset();
