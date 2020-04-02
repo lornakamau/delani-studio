@@ -20,6 +20,7 @@ body {
 #header h1{
     font-size:70px;
     font-family: 'Concert One', cursive;
+    letter-spacing: 2px;
 }
 #header h2{
     font-size: 40px;
@@ -137,19 +138,18 @@ h4{
 .form-control{ /* makes background of input boxes transparent */
     background-color: transparent;
 }
-#name{
+#mce-FNAME{
     color: white;
     background: transparent;
 }
-#email{
+#mce-EMAIL{
     color: white;
     background: transparent;
 }
-#message{
+#mce-MMERGE6{
     color: white;
     background: transparent;
-}
-  
+} 
 #socials{
     padding-top: 3%;
     text-align: center;
