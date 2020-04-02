@@ -18,10 +18,17 @@ body {
     padding-top: 17%;
 }
 #header h1{
-    font-size: 38px;
+    font-size:70px;
+    font-family: 'Concert One', cursive;
+}
+#header h2{
+    font-size: 40px;
+    font-family: 'Concert One', cursive;
 }
 #header h6{
     font-size: 12px; 
+    font-family: 'Concert One', cursive;
+    letter-spacing: 1px;
 }
 #header .mouse-click{
     padding-bottom: 3%;
@@ -33,6 +40,11 @@ body {
 }
 p{ /*makes all paragraphs the same font size */
     font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+h4{
+    font-family: 'Concert One', cursive;
+    font-size: 30px;
 }
 #services{
     background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as background */
@@ -47,7 +59,6 @@ p{ /*makes all paragraphs the same font size */
 #whatWeDo{
     text-align: center;
     padding-top: 3%;
-
 }
 #whatWeDo .row{
     padding: 0;
@@ -67,8 +78,13 @@ p{ /*makes all paragraphs the same font size */
     display: none;
     text-align: center;
 }
+#whatWeDo h5{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
 #whatWeDo h6{
     font-size: 16px;
+    font-family: 'Concert One', cursive;
 }
 #portfolio{
     text-align: center;
@@ -92,10 +108,12 @@ p{ /*makes all paragraphs the same font size */
 .white-text{
     height:74%;
     width: 74%;
-    font-size: 24px;
+    font-size: 22px;
+    font-family: 'Concert One', cursive;
     text-transform: uppercase;
     border: 3px solid white;
-    padding: 2%;
+    padding-top: 2%;
+    padding-left: 3%;
     text-align: left;
     left: 13%;
     bottom: 0;
