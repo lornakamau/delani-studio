@@ -12,21 +12,11 @@ $(document).ready(function() {
         $(".product-description").toggle();
     });
 });
-/*
+
 $(document).ready(function() {
-    $(".section2").hover(function() {
-      $(".carousel-caption").show();
+    $(".view").hover(function() {
+      $(".name").show();
     }, function(){
-    $(".carousel-caption").hide();
+    $(".name").hide();
       });
-  });*/
-  $(document).ready(function() {
-    $("div.image-frame").hover(function() {
-        $("#name").addClass("mask flex-center rgba-red-strong");
-    });
-});
-/* resets form 
-$("button").on('click', function(){
-    $('form').each(function(){
-      this.reset();
-    }); */
+  });
