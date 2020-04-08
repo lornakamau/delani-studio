@@ -26,7 +26,7 @@ $(document).ready(function() {
     var email =$("#mce-EMAIL").val();
     var message=$("#mce-MMERGE2").val();
     if (name === "" || email === ""){
-      alert("Please fill in the form")
+      alert("Please fill in the form!")
     } else{
     alert("Thank you " + name +  "! Your message has been received")
   };
