@@ -1,162 +1,192 @@
-.container-fluid{ /*makes page contents span from end to end */
-    margin: 0;
-    padding: 0;
+.container-fluid{
+    /*makes page contents span from end to end */
+     margin: 0;
+     padding: 0;
 }
-#header{
-    background-image: url("../images/backgrounds/h_img.jpg"); /* sets image as header background */
-    background-size: cover; /* preserves image's aspect ratio */
-    background-attachment: fixed; /*makes background image not scroll with the rest of the page*/
-    text-align: center; /* align's text in the header*/
-    color: white;
-    width: 100%;
+ #header{
+     background-image: url("../images/backgrounds/h_img.jpg");
+    /* sets image as header background */
+     background-size: cover;
+    /* preserves image's aspect ratio */
+     background-attachment: fixed;
+    /*makes background image not scroll with the rest of the page*/
+     text-align: center;
+    /* align's text in the header*/
+     color: white;
+     width: 100%;
 }
-#header .logo{ /*positions the logo*/
-    padding-top: 17%;
+ #header .logo{
+    /*positions the logo*/
+     padding-top: 17%;
 }
-#header h1{ /*styling the heading*/
-    font-size:70px;
-    font-family: 'Concert One', cursive;
-    letter-spacing: 2px;
+ #header h1{
+    /*styling the heading*/
+     font-size:70px;
+     font-family: 'Concert One', cursive;
+     letter-spacing: 2px;
 }
-#header h2{ /*styling the heading*/
-    font-size: 40px;
-    font-family: 'Concert One', cursive;
+ #header h2{
+    /*styling the heading*/
+     font-size: 40px;
+     font-family: 'Concert One', cursive;
 }
-#header h6{ /*styling the heading*/
-    font-size: 12px; 
-    font-family: 'Concert One', cursive;
-    letter-spacing: 1px;
+ #header h6{
+    /*styling the heading*/
+     font-size: 12px;
+     font-family: 'Concert One', cursive;
+     letter-spacing: 1px;
 }
-#header #mouse-click{  /*positions the mouse-click*/
-    padding-bottom: 3%;
+ #header #mouse-click{
+    /*positions the mouse-click*/
+     padding-bottom: 3%;
 }
-#aboutUs{
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+ #aboutUs{
+     text-align: center;
+     padding-top: 3%;
+     padding-bottom: 3%;
 }
-p{ /*makes all paragraphs the same font size */
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
+ p{
+    /*makes all paragraphs the same font size */
+     font-size: 14px;
+     font-family: 'Lato', sans-serif;
 }
-h4{ /*styling all h4 elements*/
-    font-family: 'Concert One', cursive;
-    font-size: 30px;
+ h4{
+    /*styling all h4 elements*/
+     font-family: 'Concert One', cursive;
+     font-size: 30px;
 }
-#services{
-    background-image: url("../images/backgrounds/s_image.jpg"); /* sets image as background */
-    background-size: cover; /* preserves image's aspect ratio */
-    text-align: center;
-    color: white;
+ #services{
+     background-image: url("../images/backgrounds/s_image.jpg");
+    /* sets image as background */
+     background-size: cover;
+    /* preserves image's aspect ratio */
+     text-align: center;
+     color: white;
 }
-#services .content{ /*positions the text*/
-    padding-top: 7%;
-    padding-bottom: 8%;
+ #services .content{
+    /*positions the text*/
+     padding-top: 7%;
+     padding-bottom: 8%;
 }
-#whatWeDo{
-    text-align: center;
-    padding-top: 3%;
+ #whatWeDo{
+     text-align: center;
+     padding-top: 3%;
 }
-#whatWeDo .row{
-    padding: 0;
+ #whatWeDo .row{
+     padding: 0;
 }
-.col-md-4{ /*positioning all col-md-4*/
-    padding: 4%;
+ .col-md-4{
+    /*positioning all col-md-4*/
+     padding: 4%;
 }
-.design-description, .development-description, .product-description{
-    display: none; /*hide the descriptions*/
-    text-align: center;
+ .design-description, .development-description, .product-description{
+     display: none;
+    /*hide the descriptions*/
+     text-align: center;
 }
-#whatWeDo h5{
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
+ #whatWeDo h5{
+     font-size: 16px;
+     font-family: 'Lato', sans-serif;
 }
-#whatWeDo h6{
-    font-size: 16px;
-    font-family: 'Concert One', cursive;
+ #whatWeDo h6{
+     font-size: 16px;
+     font-family: 'Concert One', cursive;
 }
-#portfolio{
-    text-align: center;
-    padding-bottom: 3%;
+ #portfolio{
+     text-align: center;
+     padding-bottom: 3%;
 }
-#portfolio h4{
-    padding-bottom: 2%;
+ #portfolio h4{
+     padding-bottom: 2%;
 }
-.row{
-    padding-left: 12%;
-    padding-right: 12%;
+ .row{
+     padding-left: 12%;
+     padding-right: 12%;
 }
-.col-md-3{ /* defines spacing between portfolio images */
-    padding: 1%;
+ .col-md-3{
+    /* defines spacing between portfolio images */
+     padding: 1%;
 }
-#portfolio img{ /*styling portfolio images*/
-    object-fit:contain;
-    width: 100%;
-    height:auto;
+ #portfolio img{
+    /*styling portfolio images*/
+     object-fit:contain;
+     width: 100%;
+     height:auto;
 }
-.name{ /*hides the name of each project in the portfolio*/
-    display: none;
+ .name{
+    /*hides the name of each project in the portfolio*/
+     display: none;
 }
-.white-text{ /* styling each portfolio name*/
-    height:74%;
-    width: 74%;
-    font-size: 22px;
-    font-family: 'Concert One', cursive;
-    text-transform: uppercase;
-    border: 3px solid white;
-    padding-top: 2%;
-    padding-left: 3%;
-    text-align: left;
-    left: 13%;
-    bottom: 0;
-    top: 13%;
+ .white-text{
+    /* styling each portfolio name*/
+     height:74%;
+     width: 74%;
+     font-size: 22px;
+     font-family: 'Concert One', cursive;
+     text-transform: uppercase;
+     border: 3px solid white;
+     padding-top: 2%;
+     padding-left: 3%;
+     text-align: left;
+     left: 13%;
+     bottom: 0;
+     top: 13%;
 }
-#contactUs{
-    background-image: url("../images/backgrounds/c_image.jpg"); /* sets image as background */
-    background-size: cover; /* preserves image's aspect ratio */
-    text-align: center;
-    color: white;
+ #contactUs{
+     background-image: url("../images/backgrounds/c_image.jpg");
+    /* sets image as background */
+     background-size: cover;
+    /* preserves image's aspect ratio */
+     text-align: center;
+     color: white;
 }
-#contactUs h4{
-    padding-top: 3%;
-    margin: 0;
+ #contactUs h4{
+     padding-top: 3%;
+     margin: 0;
 }
-.textarea{ /* position text box*/
-    padding-left: 15%;
-    padding-right: 15%;
+ .textarea{
+    /* position text box*/
+     padding-left: 15%;
+     padding-right: 15%;
 }
-form{ 
-    padding-bottom: 2%;
+ form{
+     padding-bottom: 2%;
 }
-.form-control{ /* makes background of input boxes transparent */
-    background-color: transparent;
+ .form-control{
+    /* makes background of input boxes transparent */
+     background-color: transparent;
 }
-.form-group{
-    margin: 0;
+ .form-group{
+     margin: 0;
 }
-.form-group ::placeholder{ /*make color of placeholder white */
-    color: white;
+ .form-group ::placeholder{
+    /*make color of placeholder white */
+     color: white;
 }
-#mce-FNAME, #mce-EMAIL, #mce-MMERGE6{ /*make background transparent*/
-    color: white;
-    background: transparent;
+ #mce-FNAME, #mce-EMAIL, #mce-MMERGE6{
+    /*make background transparent*/
+     color: white;
+     background: transparent;
 }
-.btn-outline-default{ /*style submit button*/
-    border-color:  rgb(226, 220, 220) !important;
-    color: rgb(226, 220, 220) !important;
-    border-radius: 9px;
-    padding: 3px;
+ .btn-outline-default{
+    /*style submit button*/
+     border-color: rgb(226, 220, 220) !important;
+     color: rgb(226, 220, 220) !important;
+     border-radius: 9px;
+     padding: 3px;
 }
-#socials{ /*styling social media icons*/
-    padding-top: 3%;
-    text-align: center;
-    padding-bottom: 3%;
+ #socials{
+    /*styling social media icons*/
+     padding-top: 3%;
+     text-align: center;
+     padding-bottom: 3%;
 }
-#footer{
-    font-size: 18px;
-    text-align: center;
-    padding-bottom: 3%;
+ #footer{
+     font-size: 18px;
+     text-align: center;
+     padding-bottom: 3%;
 }
-#footer p{
-    margin:0;
+ #footer p{
+     margin:0;
 }
+ 
