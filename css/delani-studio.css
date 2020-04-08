@@ -5,29 +5,29 @@
 #header{
     background-image: url("../images/backgrounds/h_img.jpg"); /* sets image as header background */
     background-size: cover; /* preserves image's aspect ratio */
-    background-attachment: fixed;
+    background-attachment: fixed; /*makes background image not scroll with the rest of the page*/
     text-align: center; /* align's text in the header*/
     color: white;
     width: 100%;
 }
-#header .logo{
+#header .logo{ /*positions the logo*/
     padding-top: 17%;
 }
-#header h1{
+#header h1{ /*styling the heading*/
     font-size:70px;
     font-family: 'Concert One', cursive;
     letter-spacing: 2px;
 }
-#header h2{
+#header h2{ /*styling the heading*/
     font-size: 40px;
     font-family: 'Concert One', cursive;
 }
-#header h6{
+#header h6{ /*styling the heading*/
     font-size: 12px; 
     font-family: 'Concert One', cursive;
     letter-spacing: 1px;
 }
-#header .mouse-click{
+#header #mouse-click{  /*positions the mouse-click*/
     padding-bottom: 3%;
 }
 #aboutUs{
@@ -39,7 +39,7 @@ p{ /*makes all paragraphs the same font size */
     font-size: 14px;
     font-family: 'Lato', sans-serif;
 }
-h4{
+h4{ /*styling all h4 elements*/
     font-family: 'Concert One', cursive;
     font-size: 30px;
 }
@@ -49,7 +49,7 @@ h4{
     text-align: center;
     color: white;
 }
-#services .content{
+#services .content{ /*positions the text*/
     padding-top: 7%;
     padding-bottom: 8%;
 }
@@ -60,19 +60,11 @@ h4{
 #whatWeDo .row{
     padding: 0;
 }
-.col-md-4{
+.col-md-4{ /*positioning all col-md-4*/
     padding: 4%;
 }
-.design-description{
-    display: none;
-    text-align: center;
-}
-.development-description{
-    display: none;
-    text-align: center;
-}
-.product-description{
-    display: none;
+.design-description, .development-description, .product-description{
+    display: none; /*hide the descriptions*/
     text-align: center;
 }
 #whatWeDo h5{
@@ -97,13 +89,10 @@ h4{
 .col-md-3{ /* defines spacing between portfolio images */
     padding: 1%;
 }
-#portfolio img{
+#portfolio img{ /*styling portfolio images*/
     object-fit:contain;
     width: 100%;
     height:auto;
-}
-#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8 {
-    position: relative; 
 }
 .name{ /*hides the name of each project in the portfolio*/
     display: none;
@@ -136,7 +125,7 @@ h4{
     padding-left: 15%;
     padding-right: 15%;
 }
-form{
+form{ 
     padding-bottom: 2%;
 }
 .form-control{ /* makes background of input boxes transparent */
@@ -158,7 +147,7 @@ form{
     border-radius: 9px;
     padding: 3px;
 }
-#socials{
+#socials{ /*styling social media icons*/
     padding-top: 3%;
     text-align: center;
     padding-bottom: 3%;
