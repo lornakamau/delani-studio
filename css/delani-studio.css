@@ -100,8 +100,8 @@
      padding-bottom: 2%;
 }
  .row{
-     padding-left: 12%;
-     padding-right: 12%;
+     padding-left: 19%;
+     padding-right: 19%;
 }
  .col-md-3{
     /* defines spacing between portfolio images */
@@ -110,8 +110,6 @@
  #portfolio img{
     /*styling portfolio images*/
      object-fit:contain;
-     width: 100%;
-     height:auto;
 }
  .name{
     /*hides the name of each project in the portfolio*/
